@@ -1,0 +1,15 @@
+@import url(../../colourVariables.css);
+
+.navbar {
+  background-color: var(--blueGray);
+  /* background-image: radial-gradient(
+    farthest-corner at top left,
+    var(--blueGray),
+    var(--offWhite)
+  ); */
+  color: var(--offWhite);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,190 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+@import url(https://coolwaterui.netlify.app/css/allcomponent.css);
+
+@import url(./colourVariables.css);
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: 42rem;
+  position: relative;
+  filter: brightness(95%);
+}
+
+.heading-and-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30%;
+}
+
+.heading-and-search h1 {
+  color: var(--white);
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin: 0rem;
+  filter: brightness(140%);
+}
+
+.h1-discover {
+  z-index: 2;
+  position: inherit;
+  bottom: 86%;
+  right: 50.405%;
+}
+
+.vertical-line {
+  /* height: 12rem; */
+  border-left: 7px solid white;
+  margin: 0rem 2rem;
+}
+
+.text-left {
+}
+
+.amazing {
+  /* font-size: 3.4rem; */
+}
+
+.location-and-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  max-width: fit-content;
+  padding: 0.5rem 1.5rem;
+  margin-top: 2.8rem;
+  border-radius: 0.5rem;
+  opacity: 0.65;
+  filter: brightness(85%);
+}
+
+.location-and-search-container label {
+  font-size: 1.1rem;
+  color: var(--gray);
+}
+
+.location-dropdown {
+  border: none;
+  margin-left: 1rem;
+  margin-right: 0.3rem;
+}
+
+.location-dropdown:focus {
+  outline: none;
+}
+
+.location-and-search-container .input-primary input {
+  border: none;
+  width: 20rem;
+  padding-left: 1rem;
+  border-radius: 0rem;
+  border-left: 2px solid var(--veryLightGray);
+}
+
+.search-bar {
+  border: none;
+}
+
+.location-and-search-container:hover {
+  opacity: 1;
+  filter: brightness(95%);
+  transition: 0.45s ease;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.disp-inline {
+  display: inline;
+}
+
+.disp-block {
+  display: block;
+}
+
+.pad-top-2rem {
+  padding-top: 2rem;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
